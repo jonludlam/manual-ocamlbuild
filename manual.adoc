@@ -404,12 +404,6 @@ The OCaml compilers also accept native files (name extensions `{.o,.obj}`, `{.a,
 | File name, with extension
 | Description
 
-| `foo.mll`
-| Lexer description, to be processed by a lexer generator to produce a `foo.ml` file, and possibly `foo.mli`.
-
-| `foo.ml`
-| Grammar description, to be processed by a parser generator to produce a `foo.ml` file, and possibly `foo.mli`.
-
 | `foo.cmo`
 | OCaml bytecode-compiled object file, providing the implementation of the module `Foo`.
 
